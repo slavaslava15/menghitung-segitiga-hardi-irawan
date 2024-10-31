@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+.flat-form {
+  background: #e74c3c;
+  color: white;
+  margin: 25px auto;
+  width: 390px;
+  height: 340px;
+  position: relative;
+  font-family: 'Roboto';
+}
+.flat-form .tabs {
+  display: block;
+  background: #c0392b;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+}
+.flat-form .tabs li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.flat-form .tabs li a {
+  display: block;
+  background: #c0392b;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  float: left;
+  padding: 12px 22px;
+}
+.flat-form .tabs li a.active {
+  background: #e74c3c;
+  border-right: none;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.flat-form .tabs li a:hover {
+  background: #d65548;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.flat-form .tabs li:last-child a {
+  text-align: center;
+  width: 174px;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: none;
+}
+.flat-form .form-action {
+  padding: 0 20px;
+  position: relative;
+}
+.flat-form h1 {
+  font-size: 42px;
+  padding-bottom: 10px;
+}
+.flat-form p {
+  font-size: 12px;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+.flat-form a {
+  color: yellow;
+  text-decoration: none;
+}
+.flat-form a:hover {
+  text-decoration: underline;
+}
+.flat-form form {
+  padding-right: 20px !important;
+}
+.flat-form form input[type=text], .flat-form form input[type=password], .flat-form form input[type=submit] {
+  font-family: 'Roboto';
+}
+.flat-form form input[type=text], .flat-form form input[type=password] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  background: #fff;
+  border: none;
+  color: #e74c3c;
+  outline: none;
+}
+.flat-form form input.button {
+  border: none;
+  display: block;
+  background: #136899;
+  height: 40px;
+  width: 80px;
+  color: #ffffff;
+  text-align: center;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0px 3px 1px #2075aa;
+  -webkit-box-shadow: 0px 3px 1px #2075aa;
+  box-shadow: 0px 3px 1px #2075aa;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+.flat-form form input.button:hover {
+  background: #1e75aa;
+  -moz-box-shadow: 0 3px 1px #237bb2;
+  -webkit-box-shadow: 0 3px 1px #237bb2;
+  box-shadow: 0 3px 1px #237bb2;
+}
+.flat-form form input.button:active {
+  background: #136899;
+  @inclue box-shadow( 0 3px 1px #0f608c );
+}
+.flat-form form input::-webkit-input-placeholder {
+  color: #e74c3c;
+}
+.flat-form form input:-moz-placeholder {
+  color: #e74c3c;
+}
+.flat-form form input::-moz-placeholder {
+  color: #e74c3c;
+}
+.flat-form form input:-ms-input-placeholder {
+  color: #e74c3c;
+}
+.flat-form .show {
+  display: block;
+}
+.flat-form .hide {
+  display: none;
+}
+
+body {
+  background: #1a1a1a;
+}
